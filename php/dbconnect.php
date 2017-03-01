@@ -17,6 +17,6 @@ if($db -> connect_error)	{
 	die('DEBUG / Connection Failed: ' . $db -> connect_error);
 }
 
-echo 'DEBUG / Connection Successful: ' . $db -> host_info;
+echo 'DEBUG / Connection Successful: ' . $db -> host_info; 
 
 ?>

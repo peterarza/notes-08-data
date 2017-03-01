@@ -35,7 +35,7 @@
 
         <section class="note-hold">
             <?php
-                /* Before we can upload our notes to the db we have to ensure some basic security measures are in place. The code below prevents users from entering false info to gain access to the database. */
+                /* Before we can upload our notes to the database we have to ensure some basic security measures are in place. The code below prevents users from entering false information to gain access to the database. */
 
                 $title = mysqli_real_escape_string($db, $_POST['title']);
                 $note = mysqli_real_escape_string($db, $_POST['note']);
